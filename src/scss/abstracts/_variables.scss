@@ -7,7 +7,7 @@ body {
   // align-self: center;
   flex-direction: column;
   // width: 50vw;
-  border: 2px black dotted;
+  // border: 2px black dotted;
 }
 // colors
 h1 {
@@ -20,26 +20,27 @@ form {
   // border: 2px black dotted;
   margin: 2px auto;
   display: flex;
-  align-items: center;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+
+  // align-content: center;
   width: 50%;
   height: 3rem;
   background-color: gray;
-  width: 50%;
 }
 input[type="text"] {
   border: none;
+  height: 1.5rem;
+  // padding-left: 2rem;
 }
 button {
-  margin: 2px auto;
-
   width: 4rem;
   height: 1.5rem;
   border: none;
   background-color: navajowhite;
   // font-family: Tahoma, Geneva, Verdana, sans-serif, cursive;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: saddlebrown;
 }
 li {
   margin: 2px auto;
