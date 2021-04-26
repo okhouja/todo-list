@@ -4,7 +4,6 @@ body {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  border: 2px black dotted;
 }
 
 h1 {
@@ -17,26 +16,25 @@ h1 {
 form {
   margin: 2px auto;
   display: flex;
-  align-items: center;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 50%;
   height: 3rem;
   background-color: gray;
-  width: 50%;
 }
 
 input[type=text] {
   border: none;
+  height: 1.5rem;
 }
 
 button {
-  margin: 2px auto;
   width: 4rem;
   height: 1.5rem;
   border: none;
   background-color: navajowhite;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: saddlebrown;
 }
 
 li {
