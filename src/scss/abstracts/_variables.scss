@@ -17,14 +17,11 @@ h1 {
   justify-content: center;
 }
 form {
-  // border: 2px black dotted;
   margin: 2px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  // align-content: center;
-  width: 50%;
+  width: 45vw;
   height: 3rem;
   background-color: gray;
 }
@@ -44,17 +41,25 @@ button {
 }
 li {
   margin: 2px auto;
-  width: 45vw;
+  width: 44vw;
   height: 3rem;
-  max-width: 50vw;
+  border-bottom: 1px gainsboro solid;
+  align-items: center;
+  padding-top: 25px;
+  list-style-type: none;
   word-wrap: break-word;
   overflow-wrap: break-word;
   position: relative;
+  right: 18px;
 }
 li div {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+li:hover {
+  background: #ddd;
 }
 li div button {
   width: 1rem;
