@@ -24,8 +24,9 @@ const addToList = (e) => {
     // checkBox.type = "checkbox";
     // newContainer.appendChild(checkBox);
     // Adding some text
-    doneButton.innerHTML = "✓";
-    deleteButton.innerHTML = "✗";
+    doneButton.innerHTML = "&#10003;";
+
+    deleteButton.innerHTML = "&#x0078";
     // Injecting the buttons into the container
     newContainer.appendChild(doneButton);
     newContainer.appendChild(deleteButton);
